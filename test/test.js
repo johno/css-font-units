@@ -3,7 +3,7 @@ var cssFontUnits = require('..');
 
 describe('css-font-units', function() {
 
-  it('should do something awesome', function() {
-    assert.equal(cssFontUnits(), true);
+  it('should return an array of the correct units', function() {
+    assert.deepEqual(cssFontUnits(), ['em', 'ex', 'ch', 'rem']);
   });
 });

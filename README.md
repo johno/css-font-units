@@ -15,7 +15,7 @@ npm install --save css-font-units
 ```javascript
 var cssFontUnits = require('css-font-units');
 
-cssFontUnits();  // => true
+cssFontUnits();  // => ['em', 'ex', 'ch', 'rem']
 ```
 
 ## License
